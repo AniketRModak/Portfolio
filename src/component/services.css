@@ -1,0 +1,86 @@
+#services {
+	margin: 0%;
+	padding: 0%;
+
+	background-color: var(--bg);
+	color: var(--Text-color);
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+#services > h1 {
+	margin: 2rem;
+	text-align: center;
+}
+.myservices {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.cardSer-title {
+	justify-content: space-evenly;
+	align-items: center;
+	display: flex;
+	color: #262626;
+	font-size: 1.5em;
+	line-height: normal;
+	font-weight: 700;
+	margin-bottom: 0.5em;
+}
+
+.small-desc {
+	font-size: 1em;
+	font-weight: 400;
+	line-height: 1.5em;
+	color: #452c2c;
+}
+
+.small-desc {
+	font-size: 1em;
+}
+
+.cardSer {
+	display: block;
+	position: relative;
+	max-width: 300px;
+	max-height: 320px;
+
+	border-radius: 10px;
+	padding: 2em 1.2em;
+	margin: 12px;
+	text-decoration: none;
+	z-index: 0;
+	overflow: hidden;
+	background: var(--crad-bg);
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.cardSer:before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: -16px;
+	right: -16px;
+	background-color: var(--crad-hbg);
+	height: 32px;
+	width: 32px;
+	border-radius: 32px;
+	transform: scale(1);
+	transform-origin: 50% 50%;
+	transition: transform 0.35s ease-out;
+}
+
+.cardSer:hover:before {
+	transform: scale(28);
+}
+
+.cardSer:hover .small-desc {
+	transition: all 0.5s ease-out;
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.cardSer:hover .cardSer-title {
+	transition: all 0.5s ease-out;
+	color: var(--Text-color);
+}

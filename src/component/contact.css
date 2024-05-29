@@ -1,0 +1,103 @@
+#contact {
+	background-color: var(--bg);
+	margin: 0%;
+	padding: 0;
+	color: var(--Text-color);
+}
+#contact > h1 {
+	margin: 0%;
+	padding: 0%;
+	color: var(--crad-hbg);
+	text-align: center;
+	padding-top: 5rem;
+}
+
+.info {
+	text-align: center;
+
+	font-weight: lighter;
+}
+#contact {
+	font-size: smaller;
+}
+.circle {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	width: 6rem;
+	height: 6rem;
+	background-color: #ffffff4d;
+}
+.circle > img {
+	width: 3rem;
+}
+.circle:hover {
+	scale: 1.1;
+}
+.conCircle > h3 {
+	margin: 0.3rem 0rem;
+}
+.under {
+	margin: 0%;
+	padding: 0%;
+}
+.contactitem {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	margin-top: 3rem;
+	padding-bottom: 3rem;
+}
+.conCircle {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.btnCon {
+	height: 2rem;
+	border-radius: 0.5rem;
+	background-color: rgb(220, 95, 227);
+}
+.btnCon:hover {
+	background-color: rgb(255, 0, 255);
+}
+.ques {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.ques > h2 {
+	font-weight: 400;
+}
+.btnc > a > button {
+	font-weight: 800;
+	width: 8rem;
+	height: 3rem;
+	border-radius: 2rem;
+	background-color: #f5a6ff;
+	border: 0.1rem;
+}
+.btnc {
+	margin-left: 1rem;
+}
+.allCon {
+	display: flex;
+	align-items: center;
+	margin-top: 3rem;
+	justify-content: center;
+	padding-bottom: 2rem;
+}
+.allCon > h3 {
+	margin-right: 2rem;
+}
+.social {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.social > a > img {
+	width: 3rem;
+	margin-right: 2rem;
+}

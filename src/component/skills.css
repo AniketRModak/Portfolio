@@ -1,0 +1,38 @@
+.skills-container {
+	display: flex;
+
+	justify-content: space-around;
+}
+
+.skill-progress {
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	text-align: center;
+	box-shadow: rgb(255 0 243 / 32%) 0px 5px 11px 0px;
+}
+
+.progress-bar-container {
+	height: 10px;
+	background-color: var(--Text-color);
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.progress-bar {
+	height: 100%;
+	background-color: var(--crad-hbg);
+	transition: width 0.3s ease-in-out;
+}
+
+.progress-value {
+	display: block;
+	margin-top: 5px;
+}
+
+.sub-skills {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
