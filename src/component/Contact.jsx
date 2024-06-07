@@ -44,7 +44,7 @@ function Contact() {
                 <h3>Find Me on</h3>
                 <div className="social">
                     <a href="https://github.com/AniketRModak/"> <img src="./image/github.png" alt="" /></a>
-                    <a href="https://www.linkedin.com/in/aniket-modak-a90b432ba"> <img src="./image/linkedin.png" alt="" /></a>
+                    <a href="https://www.linkedin.com/in/AniketRmodak/"> <img src="./image/linkedin.png" alt="" /></a>
                     <a href="https://x.com/AniketModak8689?t=bQn5C-S_uUQS5v0ZxYtFEA&s=09"><img src="./image/twitter.png" alt="" /></a>
                     <a href="https://www.instagram.com/aniket_modak_?utm_source=qr&igsh=MWM0d3piNTF5Z253eQ=="> <img src="./image/instagram.png" alt="" /></a>
 
